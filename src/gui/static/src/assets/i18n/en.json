@@ -1,7 +1,7 @@
 {
   "common": {
-    "coin-id": "SKY",
-    "coin-hours": "SKY Hours",
+    "coin-id": "TRX",
+    "coin-hours": "TRX Hours",
     "coins": "Coins",
     "hours": "Hours",
     "balance": "Balance",
@@ -21,14 +21,14 @@
     "wallets": "Wallets",
     "send": "Send",
     "history": "History",
-    "buy-coin": "Buy Skycoin",
+    "buy-coin": "Buy Tron",
     "network": "Networking",
     "blockchain": "Blockchain",
     "outputs": "Outputs",
     "transactions": "Transactions",
     "pending-txs": "Pending Transactions",
     "backup": "Backup Wallet",
-    "explorer": "Skycoin Explorer",
+    "explorer": "Tron Explorer",
     "seed": "Wallet Seed",
     "qrcode": "QR Code"
   },
@@ -62,28 +62,28 @@
     "select-address": "Select address",
     "generate": "Generate",
     "deposit-location": "Deposit Location",
-    "deposit-location-desc": "Choose a wallet where you'd like us to deposit your Skycoin after we receive your Bitcoin.",
+    "deposit-location-desc": "Choose a wallet where you'd like us to deposit your Tron after we receive your Bitcoin.",
     "make-choice": "Make a choice",
-    "wallets-desc": "Each time a new wallet and address are selected, a new BTC address is generated. A single Skycoin address can have up to 5 BTC addresses assigned to it.",
+    "wallets-desc": "Each time a new wallet and address are selected, a new BTC address is generated. A single Tron address can have up to 5 BTC addresses assigned to it.",
     "send": "Send Bitcoin",
-    "send-desc": "Send Bitcoin to the address below. Once received, we will deposit the Skycoin to a new address in the wallet selected above at the current rate of {{ rate }} SKY/BTC.",
-    "fraction-warning": "Only send multiple of the SKY/BTC rate! Skycoin is sent in whole number; fractional SKY is not sent!",
-    "receive": "Receive Sky",
-    "receive-desc": "After receiving your Bitcoin, we'll send you your Skycoin. It may take anywhere between 20 minutes and an hour to receive your SKY.",
+    "send-desc": "Send Bitcoin to the address below. Once received, we will deposit the Tron to a new address in the wallet selected above at the current rate of {{ rate }} TRX/BTC.",
+    "fraction-warning": "Only send multiple of the TRX/BTC rate! Tron is sent in whole number; fractional TRX is not sent!",
+    "receive": "Receive Tron",
+    "receive-desc": "After receiving your Bitcoin, we'll send you your Tron. It may take anywhere between 20 minutes and an hour to receive your TRX.",
     "status-button": "Status:",
     "check-status-button": "Check Status",
     "new-order-button": "New Order"
   },
 
   "wizard": {
-    "wallet-desc": "If you don't have a Skycoin wallet, use the generated seed to create a new one. If you already have a wallet, toggle over to \"Load Wallet\" and enter your seed.",
+    "wallet-desc": "If you don't have a Tron wallet, use the generated seed to create a new one. If you already have a wallet, toggle over to \"Load Wallet\" and enter your seed.",
     "encrypt-desc": "Increase security of your wallet by encrypting it. By entering a password below, your wallet will be encrypted. Only those with the password will be able access the wallet and remove funds.",
     "finish-button": "Finish",
     "back-button": "Back",
 
     "confirm": {
       "title": "Safeguard your seed!",
-      "desc": "We want to make sure that you wrote down your seed and stored it in a safe place. If you forget your seed, you WILL NOT be able to recover your Skycoin wallet!",
+      "desc": "We want to make sure that you wrote down your seed and stored it in a safe place. If you forget your seed, you WILL NOT be able to recover your Tron wallet!",
       "checkbox": "It’s safe, I swear.",
       "button": "Continue"
     }
@@ -143,16 +143,15 @@
     "wallet-label": "Wallet",
     "addresses-label": "Addresses",
     "addresses-help": "Wallet addresses to send from",
-    "change-address-label": "Custom change address",
-    "change-address-help": "Address to receive change. If it's not provided, it will be chosen automatically",
+    "change-address-label": "Change address",
+    "change-address-help": "Address to receive change (in form of coinhours)",
     "destinations-label": "Destinations",
-    "destinations-help1": "Destination addresses and their coins",
-    "destinations-help2": "Destination addresses, their coins and coin hours",
+    "destinations-help": "Destination addresses, their coins and coinhours",
     "hours-allocation-label": "Automatic coin hours allocation",
     "options-label": "Options",
-    "value-label": "Coin hours share factor",
-    "value-help": "The higher the value, the more coin hours will be sent to outputs",
-    "preview-button": "Preview",
+    "value-label": "Value",
+    "value-help": "The higher the value, the more coinhours will be sent to outputs",
+    "verify-button": "Verify",
     "send-button": "Send",
     "back-button": "Back"
   },
@@ -219,7 +218,7 @@
     "done": "Completed",
     "waiting-confirm": "Waiting for confirmation",
     "waiting-deposit": "Waiting for Bitcoin deposit",
-    "waiting-send": "Waiting to send Skycoin",
+    "waiting-send": "Waiting to send Tron",
     "unknown": "Unknown"
   }
 }

@@ -1,12 +1,12 @@
-# Skycoin desktop client
+# Tron desktop client
 
-The Skycoin wallet ships with a web interface which can be ran from the browser and/or Electron.
+The Tron wallet ships with a web interface which can be ran from the browser and/or Electron.
 
 The project contains both the source (src) and target (dist) files of this web interface.
 
 ## Prerequisites
 
-The Skycoin web interface requires Node 8.10.0 or higher, together with NPM 5.6 or higher.
+The Tron web interface requires Node 8.10.0 or higher, together with NPM 5.6 or higher.
 
 ## Installation
 
